@@ -1,11 +1,40 @@
-.raute{
-    background-color: brown;
+.button{
     padding: 5%;
-    border-radius: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: #51B;
     width: 40%;
     height: 40%;
+    color: #EEE;
+ 
+
+}
+#site{
+    background-color:#113;
+}
+.toParent{
+    font-size: 4vw;
+    text-align:center;
+}
+button{
+    border: none;
+    text-decoration-line: none;
+    text-decoration-color: #EEE;
+    text-underline-position: above;
+
+}
+#main_site_name{
+    color : #DDD;
+    text-align: left;
+    font-size: 4vw;
+    position: relative;
+    left:20%;
+    top:20%;
+    display:inline
+    
+}
+#main_logo{
+    image-rendering: pixelated;
+    width: 50%;
+    position: relative;
+    right:20%;
+    top:20%;
 }
