@@ -7,20 +7,30 @@
  
 
 }
+section{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50%;
+    padding: 10% 20%;
+    border:none
+}
 #site{
+    margin: 0%;
     background-color:#113;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    text-decoration-line: none;
+    text-decoration-color: #EEE;
+    text-underline-position: above;
 }
 .toParent{
     font-size: 4vw;
     text-align:center;
 }
-button{
-    border: none;
-    text-decoration-line: none;
-    text-decoration-color: #EEE;
-    text-underline-position: above;
 
-}
 #main_site_name{
     color : #DDD;
     text-align: left;
@@ -34,7 +44,14 @@ button{
 #main_logo{
     image-rendering: pixelated;
     width: 50%;
-    position: relative;
-    right:20%;
-    top:20%;
+    
+}
+button{
+    border:none
+}
+#top{
+
+}
+#bottom{
+
 }
