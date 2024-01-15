@@ -1,14 +1,20 @@
-
 <!DOCTYPE html>
 <html>
     <head>
+        <!---- the font --->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <!---- the styles --->
         <link rel="stylesheet" href = "style.css">
         <link rel="stylesheet" href = "res/sites/styles/text.css">
         <title>Valdotorium</title>
         <meta charset="UTF-8">
+        <!---- the python --->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+        <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+
+    
 
     </head>
     <body id = "site">
@@ -22,8 +28,6 @@
             <button class="button">
                 <a href="res/html/projects.html"></a>
                 <div class="toParent"><b>Projects</b></div></button>
-        
-
         </section>
         <div class="spacer layer1"></div>
         <section id="bottom">
@@ -33,7 +37,6 @@
                 i will post some of my future web projects here.<br>
                 visit my <a href="projects.html">Projects</a> site to view my projects</p>
             <p class="text"> visit the repo of this site to make contributions or suggestions on <a href="https://github.com/Valdotorium/Website">GitHub</a></p>
-       
             <p class="text">anyways, huge thanks for visiting my site!</p>
             <h2 class="h2text">Devlog</h2>
             <p id="sitelog"></p>
@@ -46,10 +49,15 @@
             <p class="text">Thanks to <a href="https://haikei.app" >Haikei</a> for many graphics on this site</p>
             <p class="text">Also, i give credit to <a href="https://github.com/keyjk05">keyjk05 on GitHub</a> for teaching me basic html.</p>
             <p class="text">The symbols used on this site are downloaded from <a href="https://fonts.google.com/icons?hl=de&selected=Material+Symbols+Outlined:link_off:FILL@0;wght@400;GRAD@0;opsz@24&icon.platform=web&query=icons">Google Fonts</a></p>
-            <br><br><br><br><br>
+            <p class="text"> Some things on this site work in python,<br> this is possible because of <a href="https://pyscript.net">Pyscript</a>, <a href="https://github.com/pyscript/pyscript/blob/main/LICENSE"> here</a> you can find its license.</p>
+            <br><br><br><br><br><br>
             <p class="kleingedrucktes">made in Jan 2024 by <a href="https://github.com/Valdotorium">Valdotorium on GitHub</a><br> NOTICE: This site is under development. currently it is a prototype!<br><a href="res/sites/impressum.html">Impressum</a><br>
             <a href="https://github.com/Valdotorium/Website/blob/main/LICENSE">license</a></p>
+            <script>
+                var reader = new FileReader
+                var cont = reader.readAsText("devlog.txt")
+                document.getElementById("sitelog").innerHTML = cont
+            </script>
         </section>
-
         </body>
 </html>
