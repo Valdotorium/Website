@@ -16,19 +16,15 @@ section{
     border:none
 }
 #site{
+    border: none;
+    margin:none;
     width: 100%;
     height: 100%;
     padding: none;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    border: none;
-    margin: none;
-    text-decoration-line: none;
-    text-decoration-color: #EEE;
-    text-underline-position: above;
+
 }   
 .toParent{
-    font-size: 4vw;
+    font-size: 3vw;
     text-align:center;
 }
 
@@ -37,6 +33,8 @@ section{
     text-align: left;
     font-size: 4vw;
     position: relative;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display:inline-block
     
 }
@@ -89,14 +87,14 @@ button{
     }
     .layer1{
         aspect-ratio: 3/1;
-        background-image: url("layered-waves-haikei-2.svg");
+        background-image: url("res/sites/styles/svg/main_site_1.svg");
     }
     .layer2{
         aspect-ratio: 9/1;
-        background-image: url("layered-waves-haikei.svg");
+        background-image: url("res/sites/styles/svg/main_site_2.svg");
     }
 .text{
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     text-align: center;
     text-decoration-line: none;
     text-decoration-color:#999
@@ -104,9 +102,4 @@ button{
 .h2text{
     text-decoration-line:underline;
 
-}
-.kleingedrucktes{
-    font-size: 1vw;
-    text-align: left;
-    color: #999;
 }
