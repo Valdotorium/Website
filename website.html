@@ -39,7 +39,7 @@
             <p class="text"> visit the repo of this site to make contributions or suggestions on <a href="https://github.com/Valdotorium/Website">GitHub</a></p>
             <p class="text">anyways, huge thanks for visiting my site!</p>
             <h2 class="h2text">Devlog</h2>
-            <p id="sitelog"></p>
+            <p id="sitelog">zzz</p>
             <h2 class="h2text">Contact</h2>
             <p class="text">if you need to, you can email me  with valdotorium@icloud.com <br>
                 or DM me on my <a href="https://www.reddit.com/user/Valdotorium">Reddit Profile</a></p>
@@ -53,11 +53,14 @@
             <br><br><br><br><br><br>
             <p class="kleingedrucktes">made in Jan 2024 by <a href="https://github.com/Valdotorium">Valdotorium on GitHub</a><br> NOTICE: This site is under development. currently it is a prototype!<br><a href="res/sites/impressum.html">Impressum</a><br>
             <a href="https://github.com/Valdotorium/Website/blob/main/LICENSE">license</a></p>
-            <script>
-                var reader = new FileReader
-                var cont = reader.readAsText("devlog.txt")
-                document.getElementById("sitelog").innerHTML = cont
-            </script>
+       
         </section>
+        <script>
+            let reader = new FileReader()
+            document.getElementById("sitelog").innerHTML = reader.readAsText("devlog.txt")
+
+        </script>
+
         </body>
+
 </html>
