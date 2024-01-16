@@ -4,7 +4,7 @@ h1{
     background-color: inherit;
 }
 h2{
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     font-weight: 500;
     background-color: inherit;
 }
@@ -41,7 +41,7 @@ a{
     font-size: inherit;
     font-weight: 400;
     text-decoration-line: none;
-    color: #448;
+    color: #88C;
     font-family: 'Mukta', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background-color: inherit;
@@ -63,6 +63,7 @@ a{
     font-size: 1vw;
     text-align: center;
     color: #999;
+    line-height: 2vh;
 }
 .space{
     position:relative;

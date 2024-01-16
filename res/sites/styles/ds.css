@@ -2,8 +2,8 @@
     background-color: #114;
 }
 .content{
-    background-color: #145;
-    color:#EFE;
+    background-color: #448;
+    color:#DEE;
     display: block;
     border: none;
     margin: none;
@@ -20,8 +20,8 @@
     border:none;
     background-size:100%;
     background-size: cover;
-    aspect-ratio: 10/1;
-    background-image: url("png/impressum_1.png");
+    aspect-ratio: 6/1;
+    background-image: url("png/stacked-steps-haikei.png");
 }
 #site{
     text-align: center;

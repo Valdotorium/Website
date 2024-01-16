@@ -8,6 +8,10 @@
 
 }
 section{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display:inline-block;
     position: relative;
     display:flex;
     flex-direction: column;
@@ -86,12 +90,12 @@ button{
   
     }
     .layer1{
-        aspect-ratio: 3/1;
-        background-image: url("res/sites/styles/svg/main_site_1.svg");
+        aspect-ratio: 3/2;
+        background-image: url("res/sites/styles/png/main_site_2.png");
     }
     .layer2{
         aspect-ratio: 9/1;
-        background-image: url("res/sites/styles/svg/main_site_2.svg");
+        background-image: url("res/sites/styles/png/main_site_header.png");
     }
 .text{
     font-size: 1.8vw;
@@ -101,5 +105,14 @@ button{
 }
 .h2text{
     text-decoration-line:underline;
+
+}
+.whitetext{
+    
+    font-size: 5vh;
+    color: rgba(180, 180, 200, 0.7);
+    font-weight: 900;
+    text-decoration-line: underline;
+
 
 }
