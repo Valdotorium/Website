@@ -1,7 +1,16 @@
 .navbar{
-    float: left;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    margin: 10px 10px;
+
+    line-height: 3vh;
+    background-color: #DDC; 
+
+
+}
+.icon{
+    inline-size: 4vw;
+    image-rendering: crisp-edges;
+    float: right;
+    position: relative;
 
 }

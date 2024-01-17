@@ -45,7 +45,7 @@ section{
     
 }
 #header{
-    background-color: #DDB; 
+    background-color: #DDC; 
     
 }
 #headerlogo{
@@ -83,14 +83,13 @@ button{
     image-rendering: crisp-edges;
     margin:none;
     border:none;
-
     background-size:100%;
     background-size: cover;
   
     }
     .layer1{
-        aspect-ratio: 3/2;
-        background-image: url("res/sites/styles/png/main_site_2.png");
+        aspect-ratio: 3/1;
+        background-image: url("res/sites/styles/png/main-site-header-2.png");
     }
     .layer2{
         aspect-ratio: 9/1;
@@ -123,7 +122,7 @@ button{
 }
 .whitetext{
     
-    font-size: 5vh;
+    font-size: 3.5vw;
     color: rgba(180, 180, 200, 0.7);
     font-weight: 900;
     text-decoration-line: underline;
