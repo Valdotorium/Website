@@ -69,3 +69,7 @@ a{
     position:relative;
     height: 50vh;
 }
+.navbar{
+    display: inline-block;
+    margin: 10px 10px;
+}
