@@ -29,13 +29,14 @@ h6{
     background-color: inherit;
 }
 p{
-    font-size: 1.8vw;
-    font-weight: 400;
     font-family: 'Mukta', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background-color: inherit;
-
-
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+b{
+    font-weight: 600;
 }
 a{
     font-size: inherit;
@@ -60,10 +61,10 @@ a{
 
 }
 .kleingedrucktes{
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: center;
     color: #999;
-    line-height: 2vh;
+    line-height: 2vw;
 }
 .space{
     position:relative;
@@ -72,4 +73,13 @@ a{
 .navbar{
     display: inline-block;
     margin: 10px 10px;
+}
+ul{
+    align-content: baseline;
+}
+ol{
+    align-content: baseline;
+}
+li{
+    text-align: left;
 }
