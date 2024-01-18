@@ -63,6 +63,7 @@ button{
 }
 #top{
     background-color: #114;
+
 }
 #bottom{
     background-color: #C2DCBE;
@@ -75,7 +76,7 @@ button{
 }
 
 .spacer{
-
+    white-space: nowrap;
 
     width:100%;
     height: 10%;
@@ -92,8 +93,9 @@ button{
         background-image: url("res/sites/styles/png/main-site-header-2.png");
     }
     .layer2{
-        aspect-ratio: 9/1;
+        aspect-ratio: 8/1;
         background-image: url("res/sites/styles/png/main_site_header.png");
+
     }
 .text{
     font-size: 1.8vw;
@@ -126,6 +128,5 @@ button{
     color: rgba(180, 180, 200, 0.7);
     font-weight: 900;
     text-decoration-line: underline;
-
 
 }
