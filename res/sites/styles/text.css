@@ -77,6 +77,16 @@ a{
 ul{
     align-content: baseline;
 }
+#main_site_name{
+    color : #114;
+    text-align: left;
+    font-size: 4vw;
+    position: relative;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display:inline-block
+    
+}
 ol{
     align-content: baseline;
 }
