@@ -1,7 +1,14 @@
 .navbar{
     display: inline-flex;
     flex-direction: row;
+    color: #DDD;
+    line-height: 3vh;
 
+}
+.bnavbar{
+    display: inline-flex;
+    flex-direction: row;
+    color: #111;
     line-height: 3vh;
 
 }
