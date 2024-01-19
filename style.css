@@ -29,16 +29,6 @@ section{
     text-align:center;
 }
 
-#main_site_name{
-    color : #114;
-    text-align: left;
-    font-size: 4vw;
-    position: relative;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    display:inline-block
-    
-}
 #main_logo{
     image-rendering: pixelated;
     width: 50%;
