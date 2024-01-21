@@ -1,0 +1,13 @@
+TODO
+
+-Code the Project Box
+-Code the Projects Page
+-Fancy Background
+-New Navbar
+-Update Privacy Policy
+-Code Lunar Lander with responsible design
+-Code something using Go and/ir PyScript
+-Use PyScript or Go with SQL for the GFS
+-?make a multiplayer game
+-?make learning resources
+-?create a online citybuilding game (ThreeJS?)
