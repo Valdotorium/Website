@@ -1,0 +1,12 @@
+.project{
+    /* Template Project Box*/
+    background-image: url("png/project.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5vw 5vh;
+    border-color: #777799;
+    border-radius: 2vh;
+    padding: 10% 5%;
+    align-self: center;
+    align-content: baseline;
+}
