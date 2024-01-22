@@ -2,20 +2,14 @@
     display: inline-flex;
     flex-direction: row;
     color: #DDD;
-    line-height: 3vh;
+    line-height: 6vh;
 
 }
 .bnavbar{
     display: inline-flex;
     flex-direction: row;
     color: #111;
-    line-height: 3vh;
+    line-height: 6vh;
 
 }
-.icon{
-    inline-size: 4vw;
-    image-rendering: crisp-edges;
-    float: right;
-    position: relative;
 
-}

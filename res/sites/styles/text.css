@@ -72,15 +72,16 @@ a{
 }
 .navbar{
     display: inline-block;
-    margin: 10px 10px;
+    padding: 5vw 4vh;
+
 }
 ul{
     align-content: baseline;
 }
 #main_site_name{
-    color : #114;
-    text-align: left;
-    font-size: 4vw;
+    color : #B72;
+    text-align: center;
+    font-size: 5vw;
     position: relative;
     font-family: 'Mukta', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -105,4 +106,14 @@ html, body{
     padding: 0%;
     border-radius: 0%;
     align-self: start;
+}
+.modernunderlined{
+    text-decoration: underline;
+    text-decoration-thickness: 0.5%;
+    text-decoration-color: #27B;
+}
+.icon{
+    inline-size: 6vw;
+    min-inline-size: 25px;
+    image-rendering: crisp-edges;
 }

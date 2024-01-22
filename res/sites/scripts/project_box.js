@@ -7,6 +7,7 @@ function fetchJSONData(data) {
     console.log(data)
     return data
 }
+
 json = fetchJSONData(data);
 console.log(data)
 data = JSON.parse(data)
