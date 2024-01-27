@@ -1,4 +1,4 @@
-from pyscript import document
+import pyscript
 import json
 
 #fix imports
@@ -9,11 +9,11 @@ def read_json(json_file):
     with open(json_file, 'r') as f:
         return json.load(f)
 
-json = read_json("json.json")
+dat = read_json("json/projects.json")
 
 #work with the json object
 
-print(json)
+print(dat)
 
 #put the json element in a html paragraph
 #maybe that?:
