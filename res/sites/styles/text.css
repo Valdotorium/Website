@@ -115,5 +115,6 @@ html, body{
 .icon{
     inline-size: 6vw;
     min-inline-size: 25px;
-    image-rendering: crisp-edges;
+
+    image-rendering: pixelated;
 }
