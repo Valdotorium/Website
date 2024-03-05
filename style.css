@@ -117,6 +117,13 @@ button{
     font-size: 3.5vw;
     color: rgba(180, 180, 200, 0.7);
     font-weight: 900;
+
+}
+.whiteunderlinedtext{
+    
+    font-size: 3.5vw;
+    color: rgba(180, 180, 200, 0.7);
+    font-weight: 900;
     text-decoration-line: underline;
 
 }
