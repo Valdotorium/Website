@@ -72,6 +72,7 @@ button{
     height: 10%;
     background-repeat: no-repeat;
     image-rendering: crisp-edges;
+    image-rendering: pixelated;
     margin:none;
     border:none;
     background-size:100%;
@@ -99,6 +100,7 @@ button{
     height: 10%;
     background-repeat: no-repeat;
     image-rendering: crisp-edges;
+    image-rendering: pixelated;
     margin:none;
     border:none;
 
@@ -141,9 +143,12 @@ button{
     background-image: url("res/sites/styles/png/project.png");
     background-size: cover;
     opacity: 0.85;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
 .ProjectImage{
     display: none;
+
 }
 #ProjectDescription{
     width : 80vw;
