@@ -136,12 +136,17 @@ button{
 }
 #ProjectCanvas{
     width : 80vw;
-    height: 40vh;
+    height: 26vw;
     border: solid  2vw rgba(150,160,170,120);
     background-image: url("res/sites/styles/png/project.png");
     background-size: cover;
-    opacity: 0.25;
+    opacity: 0.85;
 }
 .ProjectImage{
     display: none;
+}
+#ProjectDescription{
+    width : 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
