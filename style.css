@@ -119,6 +119,13 @@ button{
     font-weight: 900;
 
 }
+.whitesmalltext{
+    
+    font-size: 2vw;
+    color: rgba(180, 180, 200, 0.7);
+    font-weight: 900;
+
+}
 .whiteunderlinedtext{
     
     font-size: 3.5vw;
@@ -126,4 +133,15 @@ button{
     font-weight: 900;
     text-decoration-line: underline;
 
+}
+#ProjectCanvas{
+    width : 80vw;
+    height: 40vh;
+    border: solid  2vw rgba(150,160,170,120);
+    background-image: url("res/sites/styles/png/project.png");
+    background-size: cover;
+    opacity: 0.25;
+}
+.ProjectImage{
+    display: none;
 }
