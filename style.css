@@ -137,8 +137,8 @@ button{
 
 }
 #ProjectCanvas{
-    width : 80vw;
-    height: 26vw;
+    width : 60vw;
+    height: 40vw;
     border: solid  2vw rgba(150,160,170,120);
     background-image: url("res/sites/styles/png/project.png");
     background-size: cover;
