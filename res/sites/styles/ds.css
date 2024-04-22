@@ -26,23 +26,23 @@
     aspect-ratio: 6/1;
     background-image: url("png/stacked-steps-haikei.png");
 }
-#site{
-
-    line-height: 3.5vw;
-    font-size: 1.8vw;
-
-    width: 100%;
-    height: 100%;
-    
+section{
+    text-align: center;
     font-family: 'Mukta', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    border: none;
-    margin: none;
-    text-decoration-line: none;
-    text-decoration-color: #EEE;
-    text-underline-position: above;
-    display: inline-block;
 
+    align-items: center;
+    min-height: 50%;
+    border:none
+}
+#site{
+    border: none;
+    margin:none;
+    width: 100%;
+    height: 100%;
+    padding: none;
+
+} 
 }
 p{
 

@@ -79,9 +79,10 @@ ul{
     align-content: baseline;
 }
 #main_site_name{
-    color : #B72;
+    color : #225;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
+    
     position: relative;
     font-family: 'Mukta', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -106,6 +107,7 @@ html, body{
     padding: 0%;
     border-radius: 0%;
     align-self: start;
+    align-content: center;
 }
 .modernunderlined{
     text-decoration: underline;

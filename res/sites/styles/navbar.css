@@ -3,6 +3,8 @@
     flex-direction: row;
     color: #DDD;
     line-height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .bnavbar{
@@ -10,6 +12,8 @@
     flex-direction: row;
     color: #111;
     line-height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
