@@ -155,3 +155,13 @@ button{
     margin-left: 10vw;
     margin-right: 10vw;
 }
+#next_project{
+    background-color: #999;
+    color:#222;
+    border: 1vmin solid #999;
+    border-radius: 0.4vmin;
+}
+#next_project:hover{
+    border: 1.2vmin solid #AAA;
+    border-radius: 0.6vmin;
+}
