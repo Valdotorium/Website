@@ -154,7 +154,6 @@ button{
     width : 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
-<<<<<<< HEAD
 }
 #next_project{
     background-color: #999;
@@ -165,10 +164,8 @@ button{
 #next_project:hover{
     border: 1.2vmin solid #AAA;
     border-radius: 0.6vmin;
-=======
     font-size: 2.7vmin;
 }
 #ProjectTitle{
     font-size: 3.3vmin;
->>>>>>> 1b1fbbe902e135596209481cbb6e6dc8986d0dcf
 }
