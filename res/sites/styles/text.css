@@ -1,30 +1,30 @@
 h1{
-    font-size: 3.8vw;
+    font-size: 4.2vmin;
     font-weight: 600;
     background-color: inherit;
 }
 h2{
-    font-size: 3.5vw;
+    font-size: 4vmin;
     font-weight: 500;
     background-color: inherit;
 }
 h3{
-    font-size: 3.2vw;
+    font-size: 3.6vmin;
     font-weight: 500;
     background-color: inherit;
 }
 h4{
-    font-size: 3.2vw;
+    font-size: 3.4vmin;
     font-weight: 400;
     background-color: inherit;
 }
 h5{
-    font-size: 2.8vw;
+    font-size: 2.9vmin;
     font-weight: 400;
     background-color: inherit;
 }
 h6{
-    font-size: 2.4vw;
+    font-size: 2.6vmin;
     font-weight: 400;
     background-color: inherit;
 }
@@ -32,7 +32,7 @@ p{
     font-family: 'Mukta', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     background-color: inherit;
-    font-size: 1.8vw;
+    font-size: 2vmin;
     font-weight: 400;
 }
 b{
@@ -61,7 +61,7 @@ a{
 
 }
 .kleingedrucktes{
-    font-size: 1.1vw;
+    font-size: 1.2vmin;
     text-align: center;
     color: #999;
     line-height: 2vw;
@@ -81,7 +81,7 @@ ul{
 #main_site_name{
     color : #225;
     text-align: center;
-    font-size: 4vw;
+    font-size: 4.2vmin;
     
     position: relative;
     font-family: 'Mukta', sans-serif;
